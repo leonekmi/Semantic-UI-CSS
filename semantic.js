@@ -8,6 +8,10 @@
  * http://opensource.org/licenses/MIT
  *
  */
+
+var jQuery = require('jquery');
+var $ = jQuery;
+
 /*!
  * # Semantic UI 2.4.1 - Site
  * http://github.com/semantic-org/semantic-ui/
@@ -22513,3 +22517,5 @@ $.fn.visibility.settings = {
 };
 
 })( jQuery, window, document );
+
+module.exports = $;
